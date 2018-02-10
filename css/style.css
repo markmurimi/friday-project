@@ -1,13 +1,57 @@
-h1 {
-  color:#E82C0C;
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html,body {
+  margin: auto;
+  padding:auto;
+  height: 100%;
+  width:100%;
+}
+.intro {
+  height: 100%;
+  width:100%;
+  margin:auto;
+  background-color: #0D9DFF;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content {
+  max-width: 500px;
+  margin:0 auto;
   text-align: center;
 }
-H2 {
-  font-size: 125%;
-  text-decoration: underline;
-  font-family: sans-serif;
-  color: #2F27E8;
+h1 {
+  border:solid white 6px;
+  border-radius: 15px;
+  padding:10px 20px;
+  font-family:"Raleway", sans-serif;
+  color: #F9F3F4;
+  text-shadow: 0px 0px 300px #000;
+  font-size: 500%;
 }
-html {
-  background-color: #0D9DFF;
+.meme {
+  float:right;
+}
+.mama {
+  float:left;
+}
+.container {
+text-align: center;
+background-color: #8CFF00;
+
+}
+h2 {
+  font-size: 150%;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.momo {
+  font-weight: bold;
 }
