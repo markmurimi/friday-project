@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-html,body {
+html, body {
   margin: auto;
   padding:auto;
   height: 100%;
@@ -11,10 +11,10 @@ html,body {
   height: 100%;
   width:100%;
   margin:auto;
-  background-color: #0D9DFF;
   display: table;
   top: 0;
   background-size: cover;
+  background-color: #0D9DFF
 }
 .intro .inner {
   display: table-cell;
@@ -45,7 +45,6 @@ h1 {
 .container {
 text-align: center;
 background-color: #8CFF00;
-
 }
 h2 {
   font-size: 150%;
@@ -58,4 +57,7 @@ h2 {
 h3 {
   color: white;
   font-size: 300%;
+}
+H3 {
+  color: red;
 }
